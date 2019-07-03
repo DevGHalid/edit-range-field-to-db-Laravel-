@@ -1,3 +1,4 @@
+use DB;
 
 trait DBRange
 {
