@@ -48,7 +48,7 @@ trait DBRange
 
     public function updateId($to, $from, $table_name = null)
     {
-        // only be type array
+        // only for type array
         if (!is_array($to) || !is_array($from)) {
             return null;
         }
