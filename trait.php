@@ -1,6 +1,6 @@
 use DB;
 
-trait DBRange
+trait DBEnum
 {
     //4774 - 5273
     public function fieldEnum($begin = 1, $finish, $name = "id")
